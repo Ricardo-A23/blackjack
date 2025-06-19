@@ -1,0 +1,25 @@
+
+html, body {
+    margin: 0px;
+    background-color: aqua;
+    color: white;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.carta{
+    width: 200px;
+    position: relative; /* sirve para que las cartas se superpongan entre ellas */
+    left: 100px; /*es una separacion de la izquierda hacia la derecha */
+    margin-left: -75px; /* le indicamos el espacio de las cartas */
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 310px;
+}
